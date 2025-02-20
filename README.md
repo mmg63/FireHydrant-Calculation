@@ -19,7 +19,7 @@ Where:
 ### 2. **Height Calculation**
 The height the water jet reaches is given by:
 
-\[ h = \frac{v^2}{2g} \]
+$\[ h = \frac{v^2}{2g} \]$
 
 Where:
 - \( h \) = maximum height (m)
