@@ -9,12 +9,12 @@ This script calculates the **maximum height** that a water jet can reach when ex
 ### 1. **Velocity Calculation (Torricelli’s Theorem)**
 The velocity of the water exiting the hole is calculated using:
 
-\[ v = \sqrt{\frac{2 P}{\rho}} \]
+$\[ v = \sqrt{\frac{2 P}{\rho}} \]$
 
 Where:
-- \( v \) = velocity of the water (m/s)
-- \( P \) = pressure (Pa)
-- \( \rho \) = density of water (1000 kg/m³)
+- $\( v \)$ = velocity of the water (m/s)
+- $\( P \)$ = pressure (Pa)
+- $\( \rho \)$ = density of water (1000 kg/m³)
 
 ### 2. **Height Calculation**
 The height the water jet reaches is given by:
@@ -22,8 +22,8 @@ The height the water jet reaches is given by:
 $\[ h = \frac{v^2}{2g} \]$
 
 Where:
-- \( h \) = maximum height (m)
-- \( g \) = acceleration due to gravity (9.81 m/s²)
+- $\( h \)$ = maximum height (m)
+- $\( g \)$ = acceleration due to gravity (9.81 m/s²)
 
 ## Code Explanation
 The function `calculate_jet_height(diameter_inches, pressure_psi)` takes **multiple diameters** and **multiple pressure values** as inputs. It iterates through all combinations and calculates:
